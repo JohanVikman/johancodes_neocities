@@ -35,7 +35,8 @@ let postsArray = [
 //[ "posts/2020-11-10-My-Third-Post-Example.html" ],
 //[ "posts/2020-11-10-My-Second-Post-Example.html" ],
     [ "posts/2025-02-27-Blogging.html" ],
-    [ "posts/2025-02-26-NewBlog.html" ] ];
+    [ "posts/2025-02-26-NewBlog.html" ],
+    [ "posts/2025-03-30-links.html" ] ];
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
@@ -63,7 +64,8 @@ if ( url.includes("posts/") ) {
 //Generate the Header HTML, a series of list items containing links.
 let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Home</a></li>' + 
 '<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
-'<li><a href="' + relativePath + '/about.html">About</a></li> </ul>';
+    '<li><a href="' + relativePath + '/links.html">Links</a></li>' +
+    '<li><a href="' + relativePath + '/about.html">About</a></li> </ul>';
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
