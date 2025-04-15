@@ -1,9 +1,3 @@
-/*Welcome to the script file! Your 1st time here, you should update
-  the BASIC INFO section to include your name and website/social 
-  media link (if desired). Most of the time, you will just come
-  here to update the POSTS ARRAY. However, you can also edit or
-  add your own scripts to do whatever you like!*/
-
 //TABLE OF CONTENTS
   // 1. Basic Info
   // 2. Posts Array
@@ -22,31 +16,11 @@ let authorLink = ""; // Enter your website, social media, etc. Some way for peop
 
 //==[ 2. POSTS ARRAY ]==
 
-/*Each time you make a new post, add the filepath here at the top of postsArray.
-  This will cause all the right links to appear and work.
-  NOTE: It's important to follow this exact naming convention, because the scripts
-  below are expecting it ( 'posts/YYYY-MM-DD-Title-of-Your-Post.html', ). You can
-  alter the scripts if you want to use a different naming convention*/
-/*UPDATE: as of version 1.3, you may omit the date if you would like. But if you
-  use a date it must still follow that format.*/
-
 let postsArray = [
-//[ "posts/2020-11-10-Special-Characters-Example.html", encodeURI( 'Spéci@l "Character\'s" Examp|e' ) ],
-//[ "posts/2020-11-10-My-Third-Post-Example.html" ],
-//[ "posts/2020-11-10-My-Second-Post-Example.html" ],
+    [ "posts/2025-04-15-links.html" ],
+    [ "posts/2025-03-30-links.html" ],
     [ "posts/2025-02-27-Blogging.html" ],
-    [ "posts/2025-02-26-NewBlog.html" ],
-    [ "posts/2025-03-30-links.html" ] ];
-
-//XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-/*CAUTION!! BEGINNING OF MORE ADVANCED SECTION!
-  For default functionality, you DO NOT have to touch anything beyond this point.
-  Things get more complicated here, so if you are unfamiliar with Javascript,
-  your site may break. That's okay though, you can always paste back in the code
-  from the Zonelets starter files :) */
-
-//XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    [ "posts/2025-02-26-NewBlog.html" ]];
 
 //==[ 3. GENERATING THE HTML SECTIONS TO BE INSERTED ]==
 
@@ -61,15 +35,16 @@ if ( url.includes("posts/") ) {
   relativePath = "..";
 }
 
-//Generate the Header HTML, a series of list items containing links.
-let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Home</a></li>' + 
-'<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
-    '<li><a href="' + relativePath + '/links.html">Links</a></li>' +
-    '<li><a href="' + relativePath + '/about.html">About</a></li> </ul>';
+let headerHTML = '<nav>' +
+    '<a href="' + relativePath + '/index.html">Home</a> ' + 
+    '<a href="' + relativePath + '/archive.html">Archive</a> ' +
+    '<a href="' + relativePath + '/links.html">Links</a> ' +
+    '<a href="' + relativePath + '/about.html">About</a>' +
+    '</nav>';
 
-//Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
-//Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
-let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>Zonelets</a>, and hosted by <a href='https://neocities.org/'>Neocities!</a></p>";
+let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName +
+    "</a> with the help of ☕️ b.</p><p> And let's not forget <a href='https://zonelets.net/'>Zonelets</a>, " +
+    " and hosting by <a href='https://neocities.org/'>Neocities!</a></p>";
 
 //To do the following stuff, we want to know where we are in the posts array (if we're currently on a post page).
 let currentIndex = -1;
