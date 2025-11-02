@@ -190,7 +190,7 @@ if (document.getElementById("header")) {
   document.getElementById("header").innerHTML = headerHTML;
 }
 if (document.getElementById("blogTitleH1")) {
-  document.getElementById("blogTitleH1").innerHTML = blogTitle;
+  document.getElementById("blogTitleH1").innerHTML = blogName;
 }
 if (document.getElementById("postTitleH1")) {
   document.getElementById("postTitleH1").innerHTML = currentPostTitle;
