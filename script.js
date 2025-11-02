@@ -17,6 +17,7 @@ let authorLink = ""; // Enter your website, social media, etc. Some way for peop
 //==[ 2. POSTS ARRAY ]==
 
 let postsArray = [
+    [ "posts/2025-11-02-books.html" ],
     [ "posts/2025-04-15-links.html" ],
     [ "posts/2025-03-30-links.html" ],
     [ "posts/2025-02-27-Blogging.html" ],
@@ -38,12 +39,13 @@ if ( url.includes("posts/") ) {
 let headerHTML = '<nav>' +
     '<a href="' + relativePath + '/index.html">Home</a> ' + 
     '<a href="' + relativePath + '/archive.html">Archive</a> ' +
+    '<a href="' + relativePath + '/books.html">Books</a> ' +
     '<a href="' + relativePath + '/links.html">Links</a> ' +
     '<a href="' + relativePath + '/about.html">About</a>' +
     '</nav>';
 
 let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName +
-    "</a> with the help of ☕️ b.</p><p> And let's not forget <a href='https://zonelets.net/'>Zonelets</a>, " +
+    "</a> with the help of ☕️ .</p><p> And let's not forget <a href='https://zonelets.net/'>Zonelets</a>, " +
     " and hosting by <a href='https://neocities.org/'>Neocities!</a></p>";
 
 //To do the following stuff, we want to know where we are in the posts array (if we're currently on a post page).

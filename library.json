@@ -1,0 +1,22 @@
+{
+    "name": "Johan's Library",
+    "url": "https://https://johancodes.neocities.org/books.html",
+  "bio": "A running list of books I have read.",
+  "lists":[
+    {
+    "name": "Books Read",
+	"url": "https://https://johancodes.neocities.org/books.html",
+    "books":
+          [{
+        "title": "The Buffalo Hunter Hunter",
+        "id": null,
+        "author": "Stephen Graham Jones ",
+        "link": "https://openlibrary.org/works/OL42458393W",
+        "image": "https://covers.openlibrary.org/b/id/14853611-L.jpg",
+        "date_finished": "2025-10-01",
+              "notes": "I really enjoyed this book, a great vampire story."
+      }]
+        }      
+  ]
+  }
+  
