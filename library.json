@@ -1,22 +1,40 @@
 {
     "name": "Johan's Library",
     "url": "https://https://johancodes.neocities.org/books.html",
-  "bio": "A running list of books I have read.",
-  "lists":[
-    {
-    "name": "Books Read",
-	"url": "https://https://johancodes.neocities.org/books.html",
-    "books":
-          [{
-        "title": "The Buffalo Hunter Hunter",
-        "id": null,
-        "author": "Stephen Graham Jones ",
-        "link": "https://openlibrary.org/works/OL42458393W",
-        "image": "https://covers.openlibrary.org/b/id/14853611-L.jpg",
-        "date_finished": "2025-10-01",
-              "notes": "I really enjoyed this book, a great vampire story."
-      }]
-        }      
-  ]
-  }
-  
+    "bio": "A running list of books I have read.",
+    "lists":[
+	{
+	    "name": "Books Read",
+	    "url": "https://https://johancodes.neocities.org/books.html",
+	    "books":
+	    [{
+		"title": "The Buffalo Hunter Hunter",
+		"id": null,
+		"author": "Stephen Graham Jones ",
+		"link": "https://openlibrary.org/works/OL42458393W",
+		"image": "https://covers.openlibrary.org/b/id/14853611-L.jpg",
+		"date_finished": "2025-10-01",
+		"notes": "I really enjoyed this book, a great vampire story."
+	    },
+	{
+	    "title": "What moves at night",
+	    "id": null,
+	    "author": "T. Kingfisher",
+	    "link": "https://openlibrary.org/works/OL35056124W",
+	    "image": "https://covers.openlibrary.org/b/id/14809528-L.jpg",
+	    "date_finished": "2025-09-15",
+	    "notes": "It seems I like everything from T. Kingfisher. This read did not scare me as much as the first book in this series but it was a great read anyway."
+	},
+	{
+	    "title": "What moves the dead",
+	    "id": null,
+	    "author": "T. Kingfisher",
+	    "link": "https://openlibrary.org/works/OL36718480W",
+	    "image": "https://ia600505.us.archive.org/view_archive.php?archive=/35/items/l_covers_0014/l_covers_0014_41.zip&file=0014414537-L.jpg",
+	    "date_finished": "2025-03-15",
+
+	    "notes": "Reading this gave me chills! I read it far too late into the nights but it was a treat!"
+	}
+    ]
+	}]
+}
