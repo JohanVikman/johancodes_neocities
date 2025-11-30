@@ -17,6 +17,7 @@ let authorLink = ""; // Enter your website, social media, etc. Some way for peop
 //==[ 2. POSTS ARRAY ]==
 
 let postsArray = [
+    [ "posts/2025-11-30-adventofcode.html" ],
     [ "posts/2025-11-02-books.html" ],
     [ "posts/2025-04-15-links.html" ],
     [ "posts/2025-03-30-links.html" ],
