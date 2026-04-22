@@ -7,14 +7,6 @@
     <meta charset="UTF-8"> 
     <link href="./tufte.css" rel="stylesheet" type="text/css" media="all">
       <style>
-    /* body { */
-    /*   font-family: system-ui, sans-serif; */
-    /*   background: #fdfdfd; */
-    /*   color: #222; */
-    /*   margin: 40px auto; */
-    /*   max-width: 900px; */
-    /*   line-height: 1.6; */
-    /* } */
 
     h1, h2 {
       text-align: center;
@@ -108,7 +100,8 @@
         const shelf = document.createElement('div');
         shelf.className = 'bookshelf';
 
-        list.books.forEach(book => {
+	revbooks = list.books.reverse();
+        revbooks.forEach(book => {
           const bookDiv = document.createElement('div');
           bookDiv.className = 'book';
           bookDiv.innerHTML = `
