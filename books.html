@@ -62,6 +62,18 @@
       color: #666;
       margin-top: 0.5em;
     }
+
+    .book-placeholder {
+	width: 120px;
+	height: 180px;
+	background: #eee;
+	border: 1px solid #ccc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #777;
+	font-size: 14px;
+    }
   </style>
   </head>
   <body>
@@ -73,8 +85,7 @@
       <h1>Books</h1>
       
       <p>This page shows what I have read, but also what I want to
-	read. The dates are unforunately not exact, but
-	approximate. All of this is inspired by
+	read. The dates are not exact. This is inspired by
 	<a href="https://tomcritchlow.com/2020/04/15/library-json/">Tom
 	Chritchlow</a>, <a href="https://aramzs.xyz/books/">Aram
 	Zucker-Scharff</a>, and many others.
@@ -103,10 +114,13 @@
 	revbooks = list.books.reverse();
         revbooks.forEach(book => {
           const bookDiv = document.createElement('div');
-          bookDiv.className = 'book';
-          bookDiv.innerHTML = `
+            bookDiv.className = 'book';
+            bookDiv.innerHTML = `
             <a href="${book.link}" target="_blank">
-              <img src="${book.image}" alt="${book.title}">
+                  ${ book.image
+                           ? `<img src="${book.image}" alt="${book.title}">`
+                           : `<div class="book-placeholder">No cover</div>`
+                   }
             </a>
             <div class="book-info">
               <h3>${book.title}</h3>
