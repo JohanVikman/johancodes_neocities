@@ -7,15 +7,16 @@
 	    "name": "Books Read",
 	    "url": "https://https://johancodes.neocities.org/books.html",
 	    "books":
-	    [{
-		"title": "The Buffalo Hunter Hunter",
-		"id": null,
-		"author": "Stephen Graham Jones ",
-		"link": "https://openlibrary.org/works/OL42458393W",
-		"image": "https://covers.openlibrary.org/b/id/14853611-L.jpg",
-		"date_finished": "2025-10-01",
-		"notes": "I really enjoyed this book, a great vampire story."
-	    },
+	    [
+	{
+	    "title": "The Buffalo Hunter Hunter",
+	    "id": null,
+	    "author": "Stephen Graham Jones ",
+	    "link": "https://openlibrary.org/works/OL42458393W",
+	    "image": "https://covers.openlibrary.org/b/id/14853611-L.jpg",
+	    "date_finished": "2025-10-01",
+	    "notes": "I really enjoyed this book, a great vampire story."
+	},
 	{
 	    "title": "What moves at night",
 	    "id": null,
@@ -25,25 +26,25 @@
 	    "date_finished": "2025-09-15",
 	    "notes": "It seems I like everything from T. Kingfisher. This read did not scare me as much as the first book in this series but it was a great read anyway."
 	},
-	     {
-		 "title": "Drive your plow over the bones of the dead",
+	{
+	    "title": "Drive your plow over the bones of the dead",
+	    "id": null,
+	    "author": "Olga Tokarczuk",
+	    "link":"https://openlibrary.org/works/OL17351965W",
+	    "image": "https://covers.openlibrary.org/b/id/14828979-L.jpg",
+	    "date_finished": "2025-09-30",
+	    "notes": "I'm not used to Nobel prize winners being so readable, but this novel was very much so. A murder mystery set in a small village in the polish countryside. The main character is a former bridge architect who now works part time as a teacher. The police isn't seeing clearly so the main character does her own digging. Great read!"
+	},
+	{
+	    "title": "The vegetarian",
 		 "id": null,
-		 "author": "Olga Tokarczuk",
-		 "link":"https://openlibrary.org/works/OL17351965W",
-		 "image": "https://covers.openlibrary.org/b/id/14828979-L.jpg",
-		 "date_finished": "2025-09-30",
-		 "notes": "I'm not used to Nobel prize winners being so readable, but this novel was very much so. A murder mystery set in a small village in the polish countryside. The main character is a former bridge architect who now works part time as a teacher. The police isn't seeing clearly so the main character does her own digging. Great read!"
-	     },
-	     {
-		 "title": "The vegetarian",
-		 "id": null,
-		 "author": "Han Kang",
-		 "link":"https://openlibrary.org/works/OL17334243W",
-		 "image": "https://covers.openlibrary.org/b/id/8469702-L.jpg",
-		 "date_finished": "2025-09-21",
-		 "notes": "A wife stops eating meat and her husband, parents and siblings cannot accept it. I haven't read much south korean literature but I'm pretty sure this is not the book to define it. This really moved me, a book that you'll not forget, it was dark, brutal and sad."
-	     },
-	     {
+	    "author": "Han Kang",
+	    "link":"https://openlibrary.org/works/OL17334243W",
+	    "image": "https://covers.openlibrary.org/b/id/8469702-L.jpg",
+	    "date_finished": "2025-09-21",
+	    "notes": "A wife stops eating meat and her husband, parents and siblings cannot accept it. I haven't read much south korean literature but I'm pretty sure this is not the book to define it. This really moved me, a book that you'll not forget, it was dark, brutal and sad."
+	},
+		{
 		 "title": "Creation Lake",
 		 "id": null,
 		 "author": "Rachel Kushner",
@@ -206,36 +207,35 @@
 		 "image": "https://covers.openlibrary.org/b/id/14608473-M.jpg",
 		 "date_finished": "2026-07-05",
 		 "notes": "I read this book in swedish. A commentary on the fallacies of the human civilization. Humans have in the future expanded into space and is working to extract resources from a forest planet far far away. A species already living on the planet has been enouraged to help the humans, but in reality they are being treated as slaves and is starting to fight back. The humans are in their constant quest for resource extraction not able to understand how the alien species function and interact. This is a timeless classic."
-	     },
-	     {
-		 "title": "The last wolf",
-		 "id": null,
-		 "author": "László Krasznahorkai",
-		 "link": "https://openlibrary.org/works/OL18146145W/Az_utols%C3%B3_farkas_and_Herman_a_vado%CC%8Br_A_mesterse%CC%81gnek_ve%CC%81ge?edition=key%3A/books/OL27452656M",
-		 "image": "https://covers.openlibrary.org/b/id/8911291-L.jpg",
-		 "date_finished": "2026-07-10",
-		 "notes": "I read this book in swedish. An author busy doing nothing is offered an opportunity too good to pass on, go to Spain and write about a forgotten area and be paid like a king. The only problem is that the author has stopped writing a long time ago and is not at all interested in the area, except how the last wolf was killed. László has a unique way of writing, there are no sentences only a flow of words. In a curious way you get into it and start to appreciate, it's a constant stream of consciousness that let's you follow the thoughts of the author. This book has lingered with me, the short stories told stayed with me after I was done."
-	     },
-	     {
-		 "title": "Red rising",
-		 "id": null,
-		 "author": "Pierce Brown",
-		 "link": "https://openlibrary.org/books/OL26758016M/Red_Rising",
-		 "image": "https://ia800703.us.archive.org/view_archive.php?archive=/4/items/m_covers_0008/m_covers_0008_40.zip&file=0008407136-M.jpg",
-		 "date_finished": "2026-10-01",
-		 "notes": "I read this book in swedish. We begin the story with meeting a young naive miner named Darrow, digging through the dirt in an underground mine on Mars. The surface is poisonous so the miners (the Reds) spend all their lives underground and compete for favors from their rulers the Golds. It seems however like the system is rigged, that the clan the young miner is living with will never be given more than their born place in the hierarchy dictates. Very soon the miner discovers that the miners are tricked, fooled to dig for riches and give it all away to a system that lies and abuses them, they are slaves, but doesn't know it. Darrow joins the rebellion and his quest is to get to the top of the system and destroy it from the inside.
-
-I read this while I was reading a non-fiction on the Vietnam war - which I was struggling with, so this book was welcome change of pace from a stream of historic facts. The pace of Red rising is fast, the chapters fairly short so you do not fall asleep before you finish off a chapter. And falling asleep is not a problem with this book, it's very exciting, Darrow has to hide secrets from both his enemies and his friends - some of whom is actually his enemies, this being a trilogy (?) gives you some comfort that he will pull through even though he has no business doing so. Looking at the back of this book it shouldn't be for me, really, the color caste is like taken from the comedy TTRPG Paranoia which I played in the 90's. The major part of the book is taking place in some kind of deathmatch Harry Potter which is ridiculous but also very entertaining. I think it speaks to me because of Darrow's struggles, he's the selected leader, he doesn't want to but he needs to do it. He realizes his decisions has consequences, he reflects on is past decisions and sees that they were brash, foolish but understands that it was necessary to do something. There is a lot of rough edges but I am looking forward to read the next installment of the series." 
-	     },
-	     {
-		 "title": "Hanoi's war",
-		 "id": null,
-		 "author": "Lien-Hang T. Nguyen",
-		 "link": "https://openlibrary.org/books/OL32742266M/Hanoi%27s_War",
-		 "image": "https://ia800505.us.archive.org/view_archive.php?archive=/14/items/l_covers_0011/l_covers_0011_36.zip&file=0011368031-L.jpg",
-		 "date_finished": "2026-10-07",
-		 "notes": "Growing up with movies and TV series from the west about the Vietnam war you get a one-sided view of the war, so I picked up this book to try and get a view from the other side. This book shows how the conflict was an international conflict with many players, and how a relatively small player - North Vietnam, played the cold war game with the big players, trying to use them against each other to try and gain advantages. The book also shows the internal political conflicts between North Vietnamese leaders which I personally had no previous knowledge about. The book covers the years between 1954-1955 to the Paris Peace Accords in 1973, skipping over the years after leading to the fall of Saigon in 1975. It discusses the betrayal the South Vietnam leaders felt with the secret talks between America and North Vietnam, it briefly mentions the struggles south vietnamese after the fall." 
-	     }
-	    ]
-	}]
+	},
+	{
+	    "title": "The last wolf",
+	    "id": null,
+	    "author": "László Krasznahorkai",
+	    "link": "https://openlibrary.org/works/OL18146145W/Az_utols%C3%B3_farkas_and_Herman_a_vado%CC%8Br_A_mesterse%CC%81gnek_ve%CC%81ge?edition=key%3A/books/OL27452656M",
+	    "image": "https://covers.openlibrary.org/b/id/8911291-L.jpg",
+	    "date_finished": "2026-07-10",
+	    "notes": "I read this book in swedish. An author busy doing nothing is offered an opportunity too good to pass on, go to Spain and write about a forgotten area and be paid like a king. The only problem is that the author has stopped writing a long time ago and is not at all interested in the area, except how the last wolf was killed. László has a unique way of writing, there are no sentences only a flow of words. In a curious way you get into it and start to appreciate, it's a constant stream of consciousness that let's you follow the thoughts of the author. This book has lingered with me, the short stories told stayed with me after I was done."
+	},
+	{
+	    "title": "Red rising",
+	    "id": null,
+	    "author": "Pierce Brown",
+	    "link": "https://openlibrary.org/books/OL26758016M/Red_Rising",
+	    "image": "https://ia800703.us.archive.org/view_archive.php?archive=/4/items/m_covers_0008/m_covers_0008_40.zip&file=0008407136-M.jpg",
+	    "date_finished": "2026-10-01",
+	    "notes": "I read this book in swedish. We begin the story with meeting a young naive miner named Darrow, digging through the dirt in an underground mine on Mars. The surface is supposedly unlivable so the miners (called the Reds) spend all their lives underground and compete for favors from their rulers called the Golds. It seems however like the system is rigged, that the clan the young miner is living with will never be given more than what their Red class dictates. Very soon Darrow discovers that the miners are being lied to, fooled to dig for riches and give it all away to a system that lies and abuses them, they are slaves, but doesn't know it. Darrow joins the rebellion and his quest is to get to the top of the system and destroy it from the inside. I read this while I was reading a non-fiction on the Vietnam war - which I was struggling with, so this book was welcome change of pace from a stream of historic facts. In contrast the pace of Red rising is fast, the chapters reads quickly so you do not fall asleep before you finish off a chapter. And falling asleep is not a problem with this book, it's very exciting, Darrow has to hide secrets from both his enemies and his friends. This is the first book of a trilogy which gives you some comfort that Darrow will pull through even though he has no business doing so. Reading the back of this book would indicate that it's not for me, really, the color caste is like taken from the comedy TTRPG Paranoia which I played in the 90's. The major part of the book is taking place in some kind of deathmatch Harry Potter which is ridiculous but also very entertaining. I think it sucked me in because of Darrow's struggles, he's the selected leader, he doesn't want to but he needs to do it. He realizes his decisions has consequences, he reflects on is past decisions and sees that they were brash and foolish, but he understands that it was necessary to do something. There is a lot of rough edges but I am looking forward to read the next installment of the series."
+	},
+	{
+	    "title": "Hanoi's war",
+	    "id": null,
+	    "author": "Lien-Hang T. Nguyen",
+	    "link": "https://openlibrary.org/books/OL32742266M/Hanoi%27s_War",
+	    "image": "https://ia800505.us.archive.org/view_archive.php?archive=/14/items/l_covers_0011/l_covers_0011_36.zip&file=0011368031-L.jpg",
+	    "date_finished": "2026-10-07",
+	    "notes": "Growing up with movies and TV series from the west about the Vietnam war you get a one-sided view of the war, so I picked up this book to try and get a view from the other side. This book shows how the conflict was an international conflict with many players, and how a relatively small player - North Vietnam, played the cold war game with the big players, trying to use them against each other to try and gain advantages. The book also shows the internal political conflicts between North Vietnamese leaders which I personally had no previous knowledge about. The book covers the years between 1954-1955 to the Paris Peace Accords in 1973, skipping over the years after leading to the fall of Saigon in 1975. It discusses the betrayal the South Vietnam leaders felt with the secret talks between America and North Vietnam, it briefly mentions the struggles for the south vietnamese after the fall and this is something I probably will read more about somewhere else. A very interesting read, I read some lighter stuff on the side just to keep my reding moving."
+	}
+	]
+	}
+    ]
 }
